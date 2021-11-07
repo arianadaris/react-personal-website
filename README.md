@@ -5,22 +5,22 @@ Below are images of my website as of November 7, 2021
 
 # Home Page
 
-![homepage](https://user-images.githubusercontent.com/73635827/140656545-3ea1d350-7173-4f8b-990e-97c4bbfe0b6a.png)
+![homepage](https://user-images.githubusercontent.com/73635827/140657000-cd048407-759b-4f55-862d-8c725964273b.png)
 
 
 # About Page
 
-![aboutpage](https://user-images.githubusercontent.com/73635827/140656954-3d0b61a6-8de3-4ee5-8357-883899b8948f.png)
+![aboutpage](https://user-images.githubusercontent.com/73635827/140657008-b77006e5-9380-4612-b225-9e4a9dba7a91.png)
 
 
 # Work Page
 
-![workpage](https://user-images.githubusercontent.com/73635827/140656553-e4055954-b7ce-40b0-b568-3704d54f941a.png)
+![workpage](https://user-images.githubusercontent.com/73635827/140657016-6625c0a1-625e-4e33-a597-4ed2fb689dd3.png)
 
 
 # Contact Page
 
-![contactpage](https://user-images.githubusercontent.com/73635827/140656552-95646ff3-d60a-493b-9688-564b130ea209.png)
+![contactpage](https://user-images.githubusercontent.com/73635827/140657020-37a92d79-5619-4f87-97dc-4ed32ef2c877.png)
 
 
 # November 7 Update
