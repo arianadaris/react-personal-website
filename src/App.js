@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -14,22 +14,13 @@ const App = (isHome) => {
         <Header />
       </>
       <Switch>
-        <Route path="/work" exact>
-          <Work/>
-        </Route>
-        <Route path="/about" exact>
-          <About/>
-        </Route>
-        <Route path="/contact" exact>
-          <Contact/>
-        </Route>
-        <Route path="/" exact>
-          <Home/>
-        </Route>
+        <Route path="/work" exact component={Work} />
+        <Route path="/about" exact component={About} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
 }
-
 
 export default App;
