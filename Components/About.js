@@ -13,6 +13,7 @@ function About()
                 <Wrap>
                     <TextH1>ABOUT ME</TextH1>
                     <TextH3>Hi, I'm Ariana!</TextH3>
+                    <TextP style={{ fontStyle: 'italic' }}>A quick fun fact about me, my full name is Ariana Daris Rajewski. Daris is my middle name!</TextP>
                     <TextP>I am a UX designer from Phoenix, Arizona. Currently, I am completing my junior year at Arizona State University. I anticipate to graduate with a Bachelor's Degree in Computer Science with a concentration in Software Engineering in December of 2022.</TextP>
                     <TextP>In my free time, I enjoy learning about UX/UI and front end libraries. Lately, I have been learning about NodeJS with a personal project (linked on my GitHub).</TextP>
                     <TextP>Currently, I work as a coding instructor for kids from ages 7-14. I help them learn and implement proper coding practices, and practice error debugging while developing games in JavaScript, LUA and C# (Unity/Visual Studio).</TextP>
@@ -54,12 +55,12 @@ const Section = styled.div`
 
 const Wrap = styled.div`
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     margin-left: 5%;
     margin-right: 55%;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 `
 
 const TextH1 = styled.h1`
@@ -75,6 +76,11 @@ const TextH3 = styled.h3`
 `
 
 const TextP = styled.p`
+    .i
+    {
+        color: red;
+    }
+
     margin-top: 30px;
     font-size: 22px;
     font-weight: 400;
