@@ -8,3 +8,14 @@
   font-family: 'Playfair Display', Arial;
   color: #193932;
 }
+
+html
+{
+  overflow-y: overlay;
+}
+
+.active
+{
+  color: #80C3C3;
+  border-bottom: 1.5px solid #7DB6A6;
+}

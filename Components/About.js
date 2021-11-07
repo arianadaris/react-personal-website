@@ -1,7 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 import Footer from './Footer';
 import Background from './Background';
+import personal from '../images/Personal.jpg';
 
 function About()
 {
@@ -24,25 +25,45 @@ function About()
 
 export default About;
 
+const appearKey = keyframes`
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+`
+
 const Container = styled.div`
     width: 100%;
     height: auto;
     margin-top: 15vh;
     position: absolute;
     overflow: hidden;
+    opacity: 0;
+    animation: 1s ease-out 0s 1 ${appearKey};
+    animation-fill-mode: forwards;
 `
 
 const Section = styled.div`
     height: auto;
+    display: flex;
 `
 
 const Wrap = styled.div`
     z-index: 100;
-    padding: 10px 0 0 165px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 5%;
+    margin-right: 55%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 `
 
 const TextH1 = styled.h1`
-    font-size: 32px;
+    font-size: 26px;
     font-style: italic;
     color: #61B29C;
 `
@@ -56,20 +77,5 @@ const TextH3 = styled.h3`
 const TextP = styled.p`
     margin-top: 30px;
     font-size: 22px;
-    margin-right: 60%;
     font-weight: 400;
-`
-
-const Span = styled.div`
-    margin-top: 40px;
-`
-
-const ButtonWrap = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-
-const Button = styled.button`
-
 `
