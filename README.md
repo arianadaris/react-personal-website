@@ -10,7 +10,7 @@ Below are images of my website as of November 7, 2021
 
 # About Page
 
-![aboutpage](https://user-images.githubusercontent.com/73635827/140656893-f39ff488-a4ce-4163-8ab2-3d3586a8eb4a.png)
+![aboutpage](https://user-images.githubusercontent.com/73635827/140656954-3d0b61a6-8de3-4ee5-8357-883899b8948f.png)
 
 
 # Work Page
