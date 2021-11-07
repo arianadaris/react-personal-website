@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 import Footer from './Footer';
 import Background from './Background';
 
@@ -40,12 +40,26 @@ function Home()
 
 export default Home;
 
+const appearKey = keyframes`
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+`
+
 const Container = styled.div`
     width: 100%;
     height: 85vh;
     position: absolute;
     overflow: hidden;
     margin-top: 15vh;
+    opacity: 0;
+    animation: 1s ease-out 0.5s 1 ${appearKey};
+    animation-fill-mode: forwards;
 `
 
 const ItemText = styled.div`
@@ -71,13 +85,20 @@ const ButtonGroup = styled.div`
 `
 
 const Button = styled.button`
+    &:hover
+    {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.35);
+        background-color: #80C3C3;
+    }
+
     border: none;
     background-color: #7DB6A6;
-    margin-right: 40px;
+    margin-right: 50px;
     padding: 5px;
     border-radius: 20%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transition: 0.2s ease;
 `
 
 const Wrap = styled.div`
